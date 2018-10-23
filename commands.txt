@@ -1,0 +1,21 @@
+set up new github
+echo #useful_stuff" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ashare/<filename>.git
+git push -u origin master
+
+Once remote is established, use:
+git add <FILENAME>
+git commit -m ""
+git push -u origin master
+
+move to previous directory:
+cd -
+
+create file & continue using terminal:
+gedit <filename> &
+
+new terminal:
+ctrl-alt-t
