@@ -19,3 +19,21 @@ gedit <filename> &
 
 new terminal:
 ctrl-alt-t
+
+1st thing to do when opening ROS:
+roscore
+
+To run a package:
+rosrun [package_name] [node_name]
+
+info about packages and subcommands:
+rostopic
+rostopic pub -publishes data to desired topic (like move the turtle in turtlesim)
+
+move to a specific package w/in ROS
+roscd [name of package/location]
+
+rqt_plot scrolling time plot of data from running package
+rosrun rqt_plot rqt_plot
+
+rosparam store and manipulate data
