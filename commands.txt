@@ -14,6 +14,10 @@ git push -u origin master
 move to previous directory:
 cd -
 
+redirect I/O
+ls > file.txt #redirects output to file.txt (overwrites)
+ls >> file.txt #appends new info to existing file
+
 create file & continue using terminal:
 gedit <filename> &
 
