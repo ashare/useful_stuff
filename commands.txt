@@ -41,3 +41,7 @@ rqt_plot scrolling time plot of data from running package
 rosrun rqt_plot rqt_plot
 
 rosparam store and manipulate data
+
+cd ~/simulation/ros_catkin_ws    
+catkin_make --pkg mav_msgs
+source devel/setup.bash
